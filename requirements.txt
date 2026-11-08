@@ -1,0 +1,12 @@
+# Direct Folio dependencies. Versions match the packages in the project venv.
+numpy==2.4.6
+pandas==3.1.1
+plotly==7.1.0
+scikit-learn==1.9.1
+sentence-transformers==6.2.0
+streamlit==1.67.0
+torch==2.15.0
+transformers==5.22.2
+
+# MLP models (for example sklearn.neural_network.MLPClassifier) are provided by
+# scikit-learn; there is no separate MLP package.
